@@ -1,0 +1,578 @@
+{
+	"bBConfigurationCurrentEnvironment": "QA6",
+	"bBConfigurationEnvironmentsSelectedIndex": 1,
+	"bBConfigurationEnvironments": [{
+		"name": "Production",
+		"authKey": "x-api-key",
+		"authValue": "YVBgdbma4J35oSJzDbvobZGSl1PBvPe1er5ltNE3",
+		"remoteConfigurationUrlPath": "https://devices.beachbodyondemand.com/configuration/bod-android/v10-0-0-config"
+	}, {
+		"name": "QA6",
+		"authKey": "x-api-key",
+		"authValue": "7TY5Gf4lnpaSqfDblfpqF13Ae5KZcjn65yag7AXX",
+		"remoteConfigurationUrlPath": "https://devices-qa6.beachbodyondemand.com/configuration/bod-android/v10-0-0-config"
+	}, {
+		"name": "QA7",
+		"authKey": "x-api-key",
+		"authValue": "7TY5Gf4lnpaSqfDblfpqF13Ae5KZcjn65yag7AXX",
+		"remoteConfigurationUrlPath": "https://devices-qa7.beachbodyondemand.com/configuration/bod-android/v10-0-0-config"
+	}],
+	"excluded5ersProgramSlugs": ["5er"],
+	"featureFlags": {
+		"activitySync": true,
+		"gamification": false,
+		"gamificationUserInit": true,
+		"bodiVariableVolumeBodcastDriverEnabled": false,
+		"isBODiPromoScreenEnabled": true,
+		"isBODiClassRatingModalEnabled": false,
+		"myPurchasesEnabled": true,
+		"bodiBlocksEnabled": false,
+		"bodiBlocksHomeRailsEnabled": true,
+		"isIterableEnabled": true,
+		"isIterablePushEnabled": true,
+		"isCuratedBadgesEnabled": true,
+		"isSearchingByTierBODiEnabled": true,
+		"isDatadogRUMEnabled": true,
+		"isGamificationProgressbarHidden": true,
+		"isUnentitledContentShownForFreeUser": true,
+		"isPaywallOnDetailsPageEnabled": false,
+		"isExploreRailContentEnabled": true,
+		"isBODiPreviewsRailContentEnabled": true,
+		"isBodiDownloadsEnabled": true,
+		"isDownloadIndividualEntitlementCheckEnabled": true,
+		"isPaywallDismissButtonForRegistrationEnabled": true,
+		"isAudioDuckOthersEnabled": true,
+		"isMyPurchasesAccountEnabled": true,
+		"isFavoritesEnabled": true,
+		"isConsentV2Enabled": true,
+		"isMyFavoritesRailEnabled": false,
+		"isCoilImageLoaderEnabled": true,
+		"isHealthConsentV2Enabled": true,
+		"isAmplitudeExperimentationEnabled": false,
+		"isCommunityEnabled": true,
+		"isIAPv2Enabled": true,
+		"isMetricDashboardEnabled": true,
+		"isIterableInboxEnabled": true,
+		"isNewIAPManagerEnabled": false,
+		"isAmplitudeIAPOffersEnabled": false,
+		"paywallCanShowPricingPhaseSummaries": true,
+		"isNutritionOnProfileEnabled": true,
+		"isFitnessHubFavShortcutEnabled": false,
+		"isFitnessHubEnabled": false,
+		"isShopOnProfileEnabled": true,
+		"allowMessagePopups": true
+	},
+	"appReviewPromptNumberOfVideosRequired": 3,
+	"percentageWatchedThreshold": 0.25,
+	"bBUserMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "WdQsVy7XDd3p63N02EaVx9VkQe7maVsV1p7ruL0f",
+		"createAccountUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/users",
+		"forgotPasswordUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-forgotpassword/v1/user/forgotpassword",
+		"forgotPasswordQueryString": "https://stage.beachbodyondemand.com/reset-password",
+		"loginUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user/login",
+		"verifyEmailUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user/verify",
+		"coachUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/coach",
+		"createAccountOauthUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/oauth/authorize",
+		"createAccountClientSecret": "1089738svi1p2k7io4lafl2em9bt0v83e0upggrfa4vf4prvm3fh",
+		"userDetailsUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user",
+		"coachAssignment": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user/coach",
+		"fulfillmentUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user/fulfillment"
+	},
+	"bbUserCommPrefService": {
+		"authKey": "x-api-key",
+		"authValue": "WdQsVy7XDd3p63N02EaVx9VkQe7maVsV1p7ruL0f",
+		"getRulesUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-userv2/v2/api/user/consentrules",
+		"consentQuestionsUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-userv2/v2/api/user/consentquestions",
+		"postPrefUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-userv2/v2/api/user/contactpreferences",
+		"entitlementsUrl": "https://api.stage.cd.beachbodyondemand.com/bbconnect-user/v1/api/user/entitlements"
+	},
+	"bBStaticContentMicroService": {
+		"authKey": "Authorization",
+		"authValue": "o8NeJUVdz2ERunRYfekh6JhwnqY4ylL5",
+		"privacyPolicyUrlPath": "https://api.edge.cocoa.stage.bodi.com/static/v2/legal/bod-pp-v3-0.html",
+		"termsAndConditionsUrlPath": "https://api.edge.cocoa.stage.bodi.com/static/v2/legal/bod-tc-v3-0.html",
+		"waiverURL": "https://api.edge.cocoa.stage.bodi.com/static/v2/legal/bod-wd-v3-1.json",
+		"foodListUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/food-list/",
+		"merchAdSizesUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/ads/bod-android-adsize-v1-0.json/",
+		"searchUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/search/search-indexes-v1-3+shop.json",
+		"bodiTermsUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/BODI/Terms/bod-terms-v1.json",
+		"bodiPromoUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/BODiPromo/content.json",
+		"tooltipUrls": {
+			"workouts": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/workouts.json",
+			"shakeology": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/shakes.json",
+			"bike": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/rides.json",
+			"program": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/program.json",
+			"curated": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/curated.json",
+			"aggregate": "https://api.edge.cocoa.stage.bodi.com/static/v2/gamification/faq/nutritional.json"
+		},
+		"badgesConfigSecret": "w5mohDZZIWqmEDqX94lkDpagiIM9tdQS",
+		"commerceRailSubscriberUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/commerce/commerce-rail-subscriber.json",
+		"commerceRailNonSubscriberUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/commerce/commerce-rail-nonsubscriber.json",
+		"socialFeedConfigurationUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/socialFeed/feeds.json"
+	},
+	"bBProfileMicroService": {
+		"apiKeyHeaderName": "x-api-key",
+		"apiKey": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"profileUrl": "https://api.stage.cd.beachbodyondemand.com/user/profiles",
+		"updateFavoriteUrl": "https://api.stage.cd.beachbodyondemand.com/user/profiles/favorites"
+	},
+	"bBProfileOnboardingMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"getPutStatusUrl": "https://api.stage.cd.beachbodyondemand.com/details/onboarding-status",
+		"getBadgeMetadataUrl": "https://api.stage.cd.beachbodyondemand.com/details/badge-metadata",
+		"getPutBadgesUrl": "https://api.stage.cd.beachbodyondemand.com/details/badges",
+		"getPutAboutMeUrl": "https://api.stage.cd.beachbodyondemand.com/details/aboutme",
+		"postPhotoUrl": "https://api.stage.cd.beachbodyondemand.com/details/photo/url",
+		"getPhotosUrl": "https://api.stage.cd.beachbodyondemand.com/details/photos"
+	},
+	"bBRegisteredUserService": {
+		"authKey": "x-api-key",
+		"authValue": "mQhnl6rGVn4ZMhqATaRiE9O9ZJRjDiXaOUUcB7vf",
+		"registeredUserUrl": "https://registereduser-qa6.api.beachbodyondemand.com/v1/api/registereduser"
+	},
+	"bBVideoMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"chromecastReceiverAppID": "014C0944",
+		"convivaProdKey": "3e6281cdf7991c82a612a2d3891ca86ada88e22c",
+		"convivaTestKey": "9e58b48400889d4326b7af3e24f24343053cbacc",
+		"playPreRollAd": false,
+		"playMidRollAd": false,
+		"playPostRollAd": true,
+		"allowCastingOffline": true,
+		"useSrtAsPrimaryCC": false
+	},
+	"bBVHSMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"heartbeatUrl": "https://api.stage.cd.beachbodyondemand.com/vhs/v3/heartbeats",
+		"fitnessUrl": "https://api.stage.cd.beachbodyondemand.com/vhs/v2/[:profile-id]?limit=2745",
+		"nutritionCompletionPercent": 75
+	},
+	"bbVHSHeartbeatSendQueue": {
+		"eventTTLInHours": 168,
+		"timeoutMs": 5000,
+		"retryWaitTimeAfterTimeoutInMs": 60000,
+		"instantRetries": 3
+	},
+	"pentheraEnvironments": {
+		"pentheraDownloadsExpirationDate": "2023-06-22T00:00"
+	},
+	"bbFaqUrls": {
+		"US": "https://faq.beachbody.com",
+		"esUS": "https://faq.es.beachbody.com/app/home",
+		"CA": "https://faq.beachbody.ca",
+		"frCA": "https://faq.fr.beachbody.ca/app/home",
+		"GB": "https://faq.beachbody.co.uk",
+		"FR": "https://faq.beachbody.fr/app/home",
+		"AU": "https://faq.beachbody.com/app/answers/Australia"
+	},
+	"bbPrivacyAndTCurls": {
+		"privacyNoticeUrl": "https://www.stage.bodi.com/us/en/privacy",
+		"termsAndConditionsUrl": "https://www.stage.bodi.com/us/en/terms-of-use",
+		"privacyNoticeDirectMarketingRegionUrl": "https://www.stage.bodi.com/gb/en/privacy",
+		"termsAndConditionsDirectMarketingRegionUrl": "https://www.stage.bodi.com/gb/en/terms-of-use",
+		"healthDataPolicyUrl": "https://www.stage.bodi.com/us/en/consumer-health-data-policy"
+	},
+	"bBNutritionMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "KzB4zZns0H56wrengOLTwZdWXSVBCfo376OY0Lo0",
+		"progressUrl": "https://api.stage.cd.beachbodyondemand.com/core-tracking/v4_2/[:profile-id]/progress",
+		"statsUrl": "https://api.stage.cd.beachbodyondemand.com/core-tracking/v4_2/[:profile-id]/stats",
+		"aggregationsUrl": "https://api.stage.cd.beachbodyondemand.com/core-tracking/v4_2/aggregations",
+		"trackUrl": "https://api.stage.cd.beachbodyondemand.com/core-tracking/v4_2/[:profile-id]/track",
+		"graphsUrl": "https://api.stage.cd.beachbodyondemand.com/core-tracking/v4_2/[:profile-id]/graphs",
+		"fetchIntervalInWeeks": 2
+	},
+	"bBAudienceMicroService": {
+		"authKey": "Authorization",
+		"authValue": "05BPQ2CKNYQ23PX",
+		"audienceUrlPath": "https://audience-dom.api.beachbodyondemand.com/audience"
+	},
+	"liveVideoMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"postURL": "https://api.stage.cd.beachbodyondemand.com/livestream-api/groups/[:challenge_group_id]/posts/[:post_id]",
+		"createPostURL": "https://api.stage.cd.beachbodyondemand.com/livestream-api/groups/[:challenge_group_id]/posts",
+		"connectionTestURL": "https://api.stage.cd.beachbodyondemand.com/livestream-api/groups/[:challenge_group_id]/posts/connection-test",
+		"isHighResolution": "true"
+	},
+	"otherPublicMicroService": {
+		"updatePasswordUrl": "https://stage.beachbodyondemand.com/create-new-password",
+		"accountURL": "https://stage.bodi.com/us/en/account/settings",
+		"beachbodyChallengeURL": "https://www.beachbodychallenge.com/",
+		"geoApiUrl": "https://www.beachbodyondemand.com/api/geo",
+		"mySiteUrl": "https://mysite.stage.coo.tbbtest.com"
+	},
+	"blogMicroService": {
+		"blogUrl": "https://stage.beachbodyondemand.com/blog/",
+		"shakeFlavorUrl": " https://stage.beachbodyondemand.com/blog/wp-json/blog/v1/groups/shakeology_flavors",
+		"fitnessProgramUrl": "https://stage.beachbodyondemand.com/blog/wp-json/blog/v1/groups/taxonomies",
+		"nutritionalsUrl": "https://stage.beachbodyondemand.com/blog/wp-json/blog/v1/groups/nutritional_products"
+	},
+	"oAuthMciroService": {
+		"loginUrl": "https://beachbody-staging.us-dev.janraincapture.com/oauth/auth_native_traditional",
+		"refreshUrl": "https://beachbody-staging.us-dev.janraincapture.com/oauth/token",
+		"flowName": "standard_bod",
+		"flowVersion": "20210126185454949926",
+		"clientId": "7bp6tbd4fusnhfzamhjwu5r2szenchhm",
+		"clientSecret": "s5xse6xst6z254xyvuca6wap2esgntmn",
+		"useFlowControl": false
+	},
+	"authNMicroservice": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"userDetailsUrl": "https://api.stage.cd.beachbodyondemand.com/user/identity"
+	},
+	"merchMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"userZetaDataUrl": "https://api.stage.cd.beachbodyondemand.com/merch-api/v1/user",
+		"railsAdUnitId": "/21615348328/android/programs",
+		"programDetailsAdUnitId": "/21615348328/android/program_detail",
+		"isAdFeatureEnabled": true
+	},
+	"searchMicroService": {
+		"clientSearchApplicationId": "ZCAY6TTZZ5",
+		"clientSearchApiKey": "7336589f36c60947718f4bf5ce464545",
+		"shopSearchICID": "AND_APP_SEARCH",
+		"shopSearchExcludedObjectIDs": ["21DayFixDigitalPurchase", "21DayFixDigitalPurchaseCA", "2b-mindset-digital-purchase-ca", "2b-mindset-digital-purchase", "3-day-split-digital-purchase-ca", "3-day-split-digital-purchase", "4-week-gut-protocol-digital-purchase-ca", "4-week-gut-protocol-digital-purchase", "4-week-gut-protocol-kit-ca", "4-week-gut-protocol-kit", "4-weeks-for-every-body-digital-purchase-ca", "4-weeks-for-every-body-digital-purchase", "4-weeks-of-focus-digital-purchase-ca", "4-weeks-of-focus-digital-purchase", "80DayObsessionDigitalPurchase", "80DayObsessionDigitalPurchaseCA", "belle-vitale-program-allin-kit", "BODiLavaDigitalPurchase", "BODiLavaDigitalPurchaseCA", "BODiMembership", "BODiMembershipCA", "body-beast-digital-purchase-ca", "body-beast-digital-purchase", "ChopWoodCarryWaterDigitalPurchase", "ChopWoodCarryWaterDigitalPurchaseCA", "DigDeeperDigitalPurchase", "DigDeeperDigitalPurchaseCA", "ForBeginnersOnlyDigitalPurchase", "ForBeginnersOnlyDigitalPurchaseCA", "InsanityDigitalPurchase", "InsanityDigitalPurchaseCA", "InsanityMax30DigitalPurchase", "InsanityMax30DigitalPurchaseCA", "Job1DigitalPurchase", "Job1DigitalPurchaseCA", "LIIFT4DigitalPurchase", "LIIFT4DigitalPurchaseCA", "MbfMbfaDigitalPurchase", "MbfMbfaDigitalPurchaseCA", "MorningMeltdown100DigitalPurchase", "MorningMeltdown100DigitalPurchaseCA", "P90XDigitalPurchase", "P90XDigitalPurchaseCA", "PortionFixDigitalPurchase", "PortionFixDigitalPurchaseCA", "pre-post-natal-barre-blend-digital-purchase-ca", "pre-post-natal-barre-blend-digital-purchase", "turbo-fire-digital-purchase-ca", "turbo-fire-digital-purchase", "XtendBarreDigitalPurchase", "XtendBarreDigitalPurchaseCA", "Yoga52DigitalPurchase", "Yoga52DigitalPurchaseCA"]
+	},
+	"appSyncBODiService": {
+		"appSyncHost": "https://appsync-nginx.stage.cd.beachbodyondemand.com/graphql",
+		"appSyncAPIKey": "da2-vvzgyrujrzganlj6vg2tvwopea",
+		"subscriptionAuthHost": "6sg26ypx4bfqzah2f23zdaspne.appsync-api.us-west-2.amazonaws.com",
+		"wssUrl": "wss://6sg26ypx4bfqzah2f23zdaspne.appsync-realtime-api.us-west-2.amazonaws.com/graphql"
+	},
+	"schedulerService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"schedulerUrl": "https://api.stage.cd.beachbodyondemand.com/bodi-scheduler-api"
+	},
+	"waiverService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"bodWaiverStatusUrl": "https://api.stage.cd.beachbodyondemand.com/waivers-api/waivers"
+	},
+	"bodiRatingsService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"videosUrl": "https://api.stage.cd.beachbodyondemand.com/ratings-api/ratings/videos"
+	},
+	"notificationService": {
+		"authKey": "x-api-key",
+		"authValue": "8JCfHKOIIu75wUwAXVzjB9uKSQ4SQK2A6y9JDJCr",
+		"notificationsUrlPath": "https://api.stage.cd.beachbodyondemand.com/notifications/notification-prefs",
+		"devicesURL": "https://api.stage.cd.beachbodyondemand.com/notifications/register-device",
+		"maxLanguageLength": 8
+	},
+	"recommendationsService": {
+		"authKey": "x-api-key",
+		"authValue": "Ea6XZVOqx43rJerITZITk3RVfOS1gl6n6QLsT9XW",
+		"recommendationsUrl": "https://api.stage.cd.beachbodyondemand.com/recommendation-api/recommendation"
+	},
+	"twoWayDmService": {
+		"apiKey": "q2pkjduf8y8p",
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"channelTokenUrl": "https://api.stage.cd.beachbodyondemand.com/groups-services/profile/channels-token",
+		"channelCreateUrl": "https://api.stage.cd.beachbodyondemand.com/groups-services/channels",
+		"channelUpdateUrl": "https://api.stage.cd.beachbodyondemand.com/groups-services/channels/{channelId}"
+	},
+	"gamificationService": {
+		"badgesUrl": "https://q554mxl5e5cd7dovgvgfhkp7m4.appsync-api.us-west-2.amazonaws.com/graphql",
+		"photoShareUrl": "https://api.stage.cd.beachbodyondemand.com/groups-api/groups/posts/share",
+		"releaseDate": "2022-03-01",
+		"badgeDetailDelayMs": 3000,
+		"logShareWorkoutsTimer": 30
+	},
+	"cocoaMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"baseUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/",
+		"commerceCollectionSlug": "commerce-rail",
+		"commerceRailItemICID": "AND_APP_COMMERCE",
+		"shareContentDetailsICID": "AND_APP_PDP",
+		"getBlocksUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/blocks",
+		"getRecentlyWatchedUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v2.0/recently-watched",
+		"getBlockByIdentityUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/blocks/{identity}",
+		"getCollectionByIdentityUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/collections/{identity}",
+		"getCustomCollectionsUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/custom-collections/{identity}",
+		"getBlockParticipationUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/user/profiles/block-participation",
+		"getCompilationByIdentityUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/compilations/{identity}",
+		"getProgramBySlugUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/programs/{identity}",
+		"getVideoByIdentityUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/playback/{videoId}",
+		"getEntityUserAccessPermissionsUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/user-access",
+		"getVideosDetailsByGuidsUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/videos",
+		"getFavoritesUrl": "https://cocoa-stage.stage.cd.beachbodyondemand.com/v1.0/custom-collections/custom-my-favorites",
+		"allProgramsCollectionSlug": "all-programs-page",
+		"mostPopularCollectionSlug": "rail-2-most-popular",
+		"categoriesCollectionSlug": "browse-by-category",
+		"featuredProgramsCollectionSlug": "rail-1-featured-programs",
+		"programIconsCollectionSlug": "rail-5-all-programs-45",
+		"nutritionPromotionSlug": "nutrition-promotion",
+		"nutritionEatingPlansSlug": "nutrition-eating-plans",
+		"nutritionRecipesSlug": "nutrition-recipes",
+		"fitnessHubHeroSlug": "fitness-hub-programs-hero",
+		"fitnessHubFeaturedProgramsSlug": "rail-1-featured-programs",
+		"fitnessHubTrainersShortCollectionSlug": "fh-trainers-short"
+	},
+	"joinBlockMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"joinBlockUrl": "https://api.stage.cd.beachbodyondemand.com/user/profiles/block-participation"
+	},
+	"apesMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "6iOAewprBD24iDYnidgFeaMgRFde9FnNRORxIh80",
+		"getApesUrl": "https://api.stage.cd.beachbodyondemand.com/user-apes/apes"
+	},
+	"consentRulesMicroService": {
+		"authKey": "x-api-key",
+		"authValue": "AHGyvA6OrJ58wiEtK7g8E4B3vTHGcqHM1NoGsRed",
+		"getConsentsUrl": "https://consents-service.stage.gateway.beachbody.com/api/consents/",
+		"postConsentsUrl": "https://consents-service.stage.gateway.beachbody.com/api/consents/responses/"
+	},
+	"amplitude": {
+		"apiKey": "b7e1ebf7e22c690b60693b2f005f0f41",
+		"experimentDeploymentKey": "client-86rSXhRvprNBtw5PGACqG6Klyv3izUIR",
+		"iapOffersKey": ""
+	},
+	"iterable": {
+		"apiKey": "e9e6a850c4d844c9a7e991625be14b4f",
+		"allowedUrlSchemes": ["http", "https", "beachbodyondemand"]
+	},
+	"bodiCuratedRailsSlugs": ["bodi-curated-rail-one", "bodi-curated-rail-two", "bodi-curated-rail-three"],
+	"datadog": {
+		"clientToken": "pub740081a37024afcf2a599725cd6ec8d9",
+		"appId": "ab844f62-fac1-48cc-a98b-b57a37bb5ee7",
+		"env": "qa6",
+		"sampleRate": 100,
+		"supportedRegions": ["US"],
+		"allowedTracingUrls": ["cocoa-stage.stage.cd.beachbodyondemand.com"],
+		"overrideGuids": []
+	},
+	"adminPassword": "07101856",
+	"showDownloadNotice": false,
+	"forceUpgrade": "none",
+	"upgradeVersionCode": 0,
+	"prefCenterUrl": "https://beachbody--stage.sandbox.my.site.com/preferencecenter",
+	"emailPreference": {
+		"url": "https://stagepreferencecenter.bodi.com",
+		"path": "/Page8790",
+		"key": "05babf9522fe43b9a94ae4f853022ed2"
+	},
+	"userNameRegex": "^(?![0-9- .&])[A-Za-zÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝŸÞßàáâãäåæçèéêëìíîïðñòóôõöøùúûüýÿþß0-9- .']+",
+	"userPasswordRegex": "^(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z])[a-zA-Z0-9!\\#$%&()*+,-./:;<=>?@\\[\\]^_{|}~]{8,20}$",
+	"outageLinkYoutubePlaylist": "https://www.youtube.com/playlist?list=PLMX5OIfPNFozuJV0VLxA31dAZZ247vHxL",
+	"outageLinkBBStatus": "https://status.beachbodyondemand.com/",
+	"isMaintenanceActive": false,
+	"directResponseMarketingRegions": ["AU"],
+	"seeAllBlocksSlug": "fitness",
+	"tokenExchangeService": {
+		"url": "https://stage.gateway.beachbody.com/token-auth/authorize",
+		"basePathRegexAllowList": [".*teambeachbody\\.com", ".*tbb.*\\.beachbody\\.com", ".*tbbtest\\.com", ".*bodi\\.com"]
+	},
+	"tbbUrlBase": "https://www.stage.bodi.com",
+	"iap": {
+		"service": {
+			"authKey": "x-api-key",
+			"authValue": "WdQsVy7XDd3p63N02EaVx9VkQe7maVsV1p7ruL0f",
+			"upgradeUserUrlPath": "https://api.stage.cd.beachbodyondemand.com/bbconnect-subscriptions/upgrade/google"
+		},
+		"serviceV2": {
+			"upgradeUserUrlPath": "https://api.stage.cd.beachbodyondemand.com/iap/google/subscriptions/purchase"
+		},
+		"inAppPurchasingByRegion": [{
+			"regions": ["US", "CA", "FR", "GB"],
+			"products": [{
+				"productIDs": ["android_bodi_sub_yearly", "android_bodi_sub_quarterly", "android_bodi_sub_monthly"],
+				"localizations": [{
+					"language": "EN",
+					"title": "BODi: Fitness, Nutrition, and Mindset",
+					"subtitle": "",
+					"bulletPoints": ["Stream thousands of workouts plus programs like P90X, 21 Day Fix, and Sure Thing", "Dig into easy-to-follow eating plans and recipes", "Strengthen your mindset and set yourself up for success with meditations and guidance", "Track your progress and connect with your community to stay motivated"],
+					"buttonLabelFormat": "%s / %d-MONTH",
+					"highlightedProductText": {
+						"product": "android_bodi_sub_yearly",
+						"text": "BEST VALUE"
+					},
+					"highlightedProductButton": "android_bodi_sub_yearly",
+					"subtitlesForMonthlyPrices": [{
+						"product": "android_bodi_sub_yearly",
+						"text": "That's just %s per month!"
+					}, {
+						"product": "android_bodi_sub_quarterly",
+						"text": "That's just %s per month!"
+					}],
+					"introductoryPriceText": {
+						"product": "android_bodi_sub_quarterly",
+						"text": "14 DAY FREE TRIAL"
+					},
+					"pricingPhaseSummaryFormats": {
+						"payXForTheFirstYear": "%s for the first year",
+						"payXForTheFirstYMonths": "%s for the first %d months",
+						"payXForTheFirstMonth": "%s for the first month",
+						"payXForTheFirstYWeeks": "%s for the first %d weeks",
+						"thenXEveryYear": "then %s/year",
+						"thenXEveryMonth": "then %s/month",
+						"thenXEveryYMonths": "then %s/%d months"
+					}
+				}, {
+					"language": "ES",
+					"title": "BODi: fitness, nutrición y mindset",
+					"subtitle": "",
+					"bulletPoints": ["Reproduce cientos de rutinas, además de programas completos, como P90x, 21 Day Fix y Sure Thing", "Disfruta planes de alimentación y recetas fáciles de seguir", "Fortalece tu mindset y prepárate para el éxito con meditaciones y orientación", "Lleva un registro de tu progreso y conecta con tu comunidad para mantener la motivación"],
+					"buttonLabelFormat": "%s / %d meses",
+					"highlightedProductText": {
+						"product": "android_bodi_sub_yearly",
+						"text": "EL MEJOR PRECIO"
+					},
+					"highlightedProductButton": "android_bodi_sub_yearly",
+					"subtitlesForMonthlyPrices": [{
+						"product": "android_bodi_sub_yearly",
+						"text": "¡Esto equivale a %s por mes!"
+					}, {
+						"product": "android_bodi_sub_quarterly",
+						"text": "¡Esto equivale a %s por mes!"
+					}],
+					"introductoryPriceText": {
+						"product": "android_bodi_sub_quarterly",
+						"text": "Prueba gratis de 14 días"
+					},
+					"pricingPhaseSummaryFormats": {
+						"payXForTheFirstYear": "%s el primer año",
+						"payXForTheFirstYMonths": "%s los primeros %d meses",
+						"payXForTheFirstMonth": "%s el primer mes",
+						"payXForTheFirstYWeeks": "%s las primeras %d semanas",
+						"thenXEveryYear": "después %s/año",
+						"thenXEveryMonth": "después %s/mes",
+						"thenXEveryYMonths": "después %s/%d meses"
+					}
+				}, {
+					"language": "FR",
+					"title": "BODi : Fitness, nutrition et mental",
+					"subtitle": "",
+					"bulletPoints": ["Suivez des milliers d’entraînements et des programmes, tels que P90X, 21 Day Fix et Sure Thing", "Découvrez des plans alimentaires et des recettes faciles à suivre", "Renforcez votre mental et préparez-vous à réussir avec des méditations et des conseils", "Suivez vos progrès et entrez en contact avec votre communauté pour rester motivé"],
+					"buttonLabelFormat": "%s / %d mois",
+					"highlightedProductText": {
+						"product": "android_bodi_sub_yearly",
+						"text": "MEILLEURE OFFRE"
+					},
+					"highlightedProductButton": "android_bodi_sub_yearly",
+					"subtitlesForMonthlyPrices": [{
+						"product": "android_bodi_sub_yearly",
+						"text": "C’est-à-dire seulement %s par mois !"
+					}, {
+						"product": "android_bodi_sub_quarterly",
+						"text": "C’est-à-dire seulement %s par mois !"
+					}],
+					"introductoryPriceText": {
+						"product": "android_bodi_sub_quarterly",
+						"text": "14 jours d’essai gratuit"
+					},
+					"pricingPhaseSummaryFormats": {
+						"payXForTheFirstYear": "%s pour la première année",
+						"payXForTheFirstYMonths": "%s pour les %d premiers mois",
+						"payXForTheFirstMonth": "%s pour le premier mois",
+						"payXForTheFirstYWeeks": "%s pour les premières %d semaines",
+						"thenXEveryYear": "puis %s/an",
+						"thenXEveryMonth": "puis %s/mois",
+						"thenXEveryYMonths": "puis %s/%d mois"
+					}
+				}]
+			}]
+		}]
+	},
+	"localizations": [{
+		"lang": "EN",
+		"appUpgradeAlert": {
+			"title": "Update Recommended",
+			"msg": "Please update to the latest version for the best experience.",
+			"posText": "UPDATE NOW",
+			"negText": "LATER"
+		}
+	}, {
+		"lang": "ES",
+		"appUpgradeAlert": {
+			"title": "Actualización recomendada",
+			"msg": "Actualiza a la versión más reciente para una mejor experiencia.",
+			"posText": "ACTUALIZAR AHORA",
+			"negText": "ACTUALIZAR MÁS TARDE"
+		}
+	}, {
+		"lang": "FR",
+		"appUpgradeAlert": {
+			"title": "Mise à jour recommandée",
+			"msg": "Veuillez télécharger la dernière version pour optimiser votre expérience.",
+			"posText": "ACTUALISER MAINTENANT",
+			"negText": "MISE À JOUR ULTÉRIEURE"
+		}
+	}],
+	"myBeachbodyDataUrl": {
+		"us": "https://faq.beachbody.com/app/gdpr_form",
+		"ca": "https://faq.beachbody.com/app/gdpr_form",
+		"fr": "https://faq.beachbody.fr/app/gdpr_form",
+		"gb": "https://faq.beachbody.com/app/gdpr_form"
+	},
+	"firstFavoriteAlertImageUrl": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/bod-cms/wp-content/uploads/2024/11/20115845/Me-Tab-Callout-First-Favorite-Alert.png",
+	"featuredGroupsInfoModalImageUrl": "https://bod-cms-assets.prod.cd.beachbodyondemand.com/bod-cms/wp-content/uploads/2024/11/19140002/Community-Featured-Groups-Featured-Image.png",
+	"whatsNew": {
+		"id": "the-bodi-experience",
+		"isTextAboveImage": true,
+		"languages": {
+			"en": {
+				"title": "The BODi Experience Community is here!",
+				"buttonTitle": "GOT IT",
+				"buttonUrl": "",
+				"information": "You're invited! Stay motivated with fun challenges and rewards. Enter on BODi.com for a chance to win $100 and unlock first-week perks—this week only!",
+				"imageUrl": "https://cdn.sanity.io/images/eonsdgcj/production/84d3d7da0eeacd99e6e7618240c296334f1beb7c-1333x750.jpg"
+			},
+			"es": {
+				"title": "¿Conquistarás The Climb?",
+				"buttonTitle": "ENTENDIDO",
+				"buttonUrl": "",
+				"information": "¡Emprende en bicicleta las subidas más icónicas del mundo!",
+				"imageUrl": "https://cdn.sanity.io/images/eonsdgcj/production/84d3d7da0eeacd99e6e7618240c296334f1beb7c-1333x750.jpg"
+			},
+			"fr": {
+				"title": "Vas-tu conquérir The Climb?",
+				"buttonTitle": "COMPRIS",
+				"buttonUrl": "",
+				"information": "Enfourche ton vélo et relève les ascensions emblématiques!",
+				"imageUrl": "https://cdn.sanity.io/images/eonsdgcj/production/84d3d7da0eeacd99e6e7618240c296334f1beb7c-1333x750.jpg"
+			}
+		}
+	},
+	"availableLogTypes": [{
+		"level": "i",
+		"enableNonFatalLogging": false,
+		"enableDebugLogging": false
+	}, {
+		"level": "e",
+		"enableNonFatalLogging": false,
+		"enableDebugLogging": false
+	}, {
+		"level": "d",
+		"enableNonFatalLogging": false,
+		"enableDebugLogging": true
+	}],
+	"searchServiceV2": {
+		"searchUrl": "https://api.stage.cd.beachbodyondemand.com/search-index/search",
+		"searchConfigUrl": "https://api.edge.cocoa.stage.bodi.com/static/v2/searchV2/search-indexes-mobile-v1-3.json",
+		"apiKey": "Lq785F5x2E3FDnVSCaWSS41wlWNPhkA0aF2NHyJX",
+		"shopSearchICID": "AND_APP_SEARCH",
+		"shopSearchCode": "ANDROID_SEARCH",
+		"shopSearchExcludedObjectIDs": ["21DayFixDigitalPurchase", "21DayFixDigitalPurchaseCA", "2b-mindset-digital-purchase-ca", "2b-mindset-digital-purchase", "3-day-split-digital-purchase-ca", "3-day-split-digital-purchase", "4-week-gut-protocol-digital-purchase-ca", "4-week-gut-protocol-digital-purchase", "4-week-gut-protocol-kit-ca", "4-week-gut-protocol-kit", "4-weeks-for-every-body-digital-purchase-ca", "4-weeks-for-every-body-digital-purchase", "4-weeks-of-focus-digital-purchase-ca", "4-weeks-of-focus-digital-purchase", "80DayObsessionDigitalPurchase", "80DayObsessionDigitalPurchaseCA", "belle-vitale-program-allin-kit", "BODiLavaDigitalPurchase", "BODiLavaDigitalPurchaseCA", "BODiMembership", "BODiMembershipCA", "body-beast-digital-purchase-ca", "body-beast-digital-purchase", "ChopWoodCarryWaterDigitalPurchase", "ChopWoodCarryWaterDigitalPurchaseCA", "DigDeeperDigitalPurchase", "DigDeeperDigitalPurchaseCA", "ForBeginnersOnlyDigitalPurchase", "ForBeginnersOnlyDigitalPurchaseCA", "InsanityDigitalPurchase", "InsanityDigitalPurchaseCA", "InsanityMax30DigitalPurchase", "InsanityMax30DigitalPurchaseCA", "Job1DigitalPurchase", "Job1DigitalPurchaseCA", "LIIFT4DigitalPurchase", "LIIFT4DigitalPurchaseCA", "MbfMbfaDigitalPurchase", "MbfMbfaDigitalPurchaseCA", "MorningMeltdown100DigitalPurchase", "MorningMeltdown100DigitalPurchaseCA", "P90XDigitalPurchase", "P90XDigitalPurchaseCA", "PortionFixDigitalPurchase", "PortionFixDigitalPurchaseCA", "pre-post-natal-barre-blend-digital-purchase-ca", "pre-post-natal-barre-blend-digital-purchase", "turbo-fire-digital-purchase-ca", "turbo-fire-digital-purchase", "XtendBarreDigitalPurchase", "XtendBarreDigitalPurchaseCA", "Yoga52DigitalPurchase", "Yoga52DigitalPurchaseCA"]
+	},
+	"shopEnvironments": {
+		"domain": "https://stage.bodi.com",
+		"productCatalog": "https://api.edge.cocoa.stage.bodi.com/static/v2/shop/catalog-v0-1.json",
+		"supportedRegions": ["US", "CA"],
+		"code": "ANDROID_APP_COMMERCE",
+		"nutritionCode": "ANDROID_APP_NUTRITION",
+		"shopCode": "ANDROID_APP_SHOP"
+	}
+}
